@@ -5,6 +5,7 @@ import ProductListingPage from './pages/ProductListingPage';
 import ShoppingCartPage from './pages/ShoppingCartPage';
 
 function App() {
+  console.log("I'm in!")
   return (
       <Routes>
         <Route path="/" element={<LandingPage />} />
